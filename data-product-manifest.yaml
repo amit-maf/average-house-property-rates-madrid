@@ -22,7 +22,7 @@ inputPorts:
     entityId:
       alias: usersS3
       createEntity: true
-      entityName: bank_transactions.parquet
+      entityName: houses_Madrid.parquet
       type: s3-bucket
       entityPath: s3a://dp-input-bucket/test/houses_Madrid.parquet
       entityFilterPatternMatch: "*"
