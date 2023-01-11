@@ -1,15 +1,15 @@
 ---
 version: 0.0.1
 discoveryPort:
-  name: Average property rental value in Madrid neighbourhoods by house type
-  description: The data product provides average property rental value in Madrid
-    neighbourhood based on house type (Pisos, Aticos, Duplex, etc)
+  name: Average House Property Rates in Madrid by house type
+  description: The data product provides average house rates in Madrid by house
+    type (Pisos, Aticos, Duplex, etc)
   category: customer
   image: http://google.com
   autofillUserinfo: true
   tags:
     - Madrid
-    - House Rental
+    - House Prices
   extra: {}
 inputPorts:
   - alias: usersS3_input_port
